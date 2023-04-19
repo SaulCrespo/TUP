@@ -1,0 +1,200 @@
+/**Etiqueta html, que afectará a toda la página.
+Aquí se almacenarán las variables globales que se usarán en todo el código HTML.
+Esto me permitirá guardar una línea de diseño más fácilmente.
+*/
+html {
+    --color_0: rgb(0,0,0);
+    --color_1: rgb(180,0,0);
+    --color_2: rgb(0,100,0);
+    --color_3: rgb(0,0,160);
+    --color_4: rgb(230,230,0);
+    --color_5: rgb(255,255,255);
+}
+
+body {
+    background-color: var(--color_0);
+    color: var(--color_2);
+}
+/*------------------------------------------------------------Aquí Comienza el Header------------------------------------------------------*/
+header {
+    position: fixed;
+    max-height: 67.250px;
+    background-color: antiquewhite; 
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:20;
+}
+
+nav {
+    background-color: azure;
+    display:flex;
+    justify-content: center;
+    min-width:40vw;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    max-width: 25vw;
+    transition: 0.5s;
+}
+.logo:hover {
+    font-size: larger;
+    cursor: pointer;
+}
+
+#logo {
+    margin-left:20%;
+    margin-right:15%;
+    transition: 2s;
+}
+
+#logo:hover {
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    max-width: 10vw;
+    transition: 0.5s;
+}
+.title:hover {
+    font-size: larger;
+}
+
+header h2 a {
+    all: unset;
+    cursor: pointer;
+}
+
+/* Enlaces (que van a servir como botones entre las diferentes páginas.*/
+nav a {
+    all:unset;
+    transition: 0.5s;
+    text-align: center;
+    color: var(--color_4);
+    background-color: var(--color_3);
+    border: 2px solid var(--color_2);
+    border-radius: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    top: 0;
+    margin: 0;
+    
+    
+}
+
+nav a:hover {
+    background-color: rgb(0,0,190);
+    font-size: larger;
+    cursor: pointer;
+}
+/*---------------------------------------------------------------FIN DEL HEADER-----------------------------------------------------------------*/
+aside {
+    background-color:aqua;
+}
+/*-------------------------------------------------------------Aquí Comienza el Main-----------------------------------------------------*/
+main {
+    background-color: cadetblue;
+    width: 99vw;
+    
+    margin-top: 67px;
+    /* padding: 10px; */
+}
+
+footer {
+    background-color: coral;
+}
+/*--------------------------Sobre Mí----------------------------------*/
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+article {
+    text-align: center;
+}
+
+article ul {
+    transition: 1s;
+    display: none;
+}
+
+article:hover ul {
+    display: block;
+}
+
+.CV_Cards {
+    justify-content: space-evenly;
+}
+
+.card {   
+    margin:30px;
+    padding: 5%;
+    width: 100px;
+    height: 150px;
+    border: 5px solid var(--color_1);
+    transition:0.5s;
+}
+
+.card:hover {
+    width:700px;
+    height:fit-content;
+    min-height: 450px;
+    z-index: 15;
+    display: ruby;
+}
+
+/*----------Todo esto es para la intro del index.html-------------------*/
+svg {
+    width: 500px;
+    height: 500px;
+}
+
+#intro-animation {
+    width: 60vw;
+    height: 60vw;
+}
+
+#index {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+}
+
+@keyframes svg-grow {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+      
+    }
+
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .svg-container {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  .svg-container svg {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+    animation: svg-grow 5s ease-in-out forwards;
+  }

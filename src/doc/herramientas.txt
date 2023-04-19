@@ -1,0 +1,3 @@
+HERRAMIENTAS (AI):
+    - ChatGPT.
+    - Stable Diffusion (DreamStudio.ai)

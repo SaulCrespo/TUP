@@ -1,0 +1,4 @@
+La página de inicio tendrá una animación y un botón (Enlace).
+
+Este botón te llevará a la página Home, que compartirá estructura
+con el resto de páginas (menús de navegacion, layout, etc).
