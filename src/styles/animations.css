@@ -1,0 +1,45 @@
+/* Este es el código para la animación del elemento SVG para la introducción a la página en el index.html*/
+@keyframes svg-grow {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+      
+    }
+
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+}
+
+svg {
+    width: 500px;
+    height: 500px;
+}
+
+#intro-animation {
+    width: 60vw;
+    height: 60vw;
+}
+
+#index {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+}
+
+
+  
+.svg-container {
+width: 500px;
+height: 500px;
+overflow: hidden;
+}
+
+.svg-container svg {
+width: 100%;
+height: 100%;
+fill: currentColor;
+animation: svg-grow 5s ease-in-out forwards;
+}
