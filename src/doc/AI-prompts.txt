@@ -1,0 +1,3 @@
+Animación CSS para el SVG de index.html:
+    -PROMPT: I need a css animation to make an svg to increase its size from nothing to a width and a height of 500px.
+

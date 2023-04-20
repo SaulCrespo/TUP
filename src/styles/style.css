@@ -134,18 +134,22 @@ article:hover ul {
     display: block;
 }
 
-.CV_Cards {
+.CV_Cards-container {
     justify-content: space-evenly;
 }
 
 .card {   
-    margin:30px;
-    padding: 5%;
+    padding-top: 0.5%;
     width: 100px;
-    height: 150px;
+    height: fit-content;
     border: 5px solid var(--color_1);
     transition:0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:80%;
 }
+
 
 .card:hover {
     width:700px;
@@ -153,6 +157,21 @@ article:hover ul {
     min-height: 450px;
     z-index: 15;
     display: ruby;
+    display:block;
+}
+
+.card:hover .picture {
+    z-index: -3;
+    opacity: 0.5;
+}
+
+.card .picture {
+    width: 90%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius:1vh;
+    transition: 3s;
 }
 
 /*----------Todo esto es para la intro del index.html-------------------*/

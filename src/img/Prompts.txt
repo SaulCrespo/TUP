@@ -1,0 +1,7 @@
+Bing-------
+estudios: Books with sheet music and a laptop, baroque painting
+experiencia-profesional: Time passing and a map, baroque
+hard_skills: a laptop, a mainframe server, a violin with dark background and ancient colors, baroque
+soft_skills: a lot of smiling modern people talking with dark background and ancient colors, baroque drawing
+contatco: a letter envelope, a pen and a phone with dark background and ancient colors, baroque
+
