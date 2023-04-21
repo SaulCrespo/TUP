@@ -18,6 +18,11 @@ body {
 aside {
     background-color:aqua;
 }
+
+#index {
+    background-image: url("../img/background.jpeg");
+}
+
 /*-------------------------------------------------------------Aquí Comienza el Main-----------------------------------------------------*/
 main {
     background-color: cadetblue;
