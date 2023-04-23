@@ -2,7 +2,8 @@
 header {
     position: fixed;
     max-height: 67.250px;
-    background-color: antiquewhite; 
+    background-color: var(--color_0);
+    color: var(--color_6); 
     display: flex;
     justify-content: space-between;
     top: 0;
@@ -62,7 +63,6 @@ header h2 a {
 
 /*El contenedor para el menú de navegación del Header*/
 nav {
-    background-color: azure;
     display:flex;
     justify-content: center;
     min-width:40vw;
@@ -73,8 +73,8 @@ nav a {
     all:unset;
     transition: 0.5s;
     text-align: center;
-    color: var(--color_4);
-    background-color: var(--color_3);  
+    color: var(--color_5);
+    background-color: var(--color_4);  
     border: 2px solid var(--color_2);
     border-radius: 2%;
     padding-left: 5%;

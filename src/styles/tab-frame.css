@@ -1,0 +1,37 @@
+.tab-frame {
+    flex-flow: wrap;
+    justify-content: flex-start;
+    padding:none;
+}
+
+.tab {
+    margin:none;
+    max-width: 200px;
+    max-height: 50px;
+    background-color: var(--color_0);
+}
+
+#empty {
+    min-width: 600px;
+}
+
+.frame {
+    min-width: 800px;
+    min-height: 500px;
+    /* display: none;     */
+}
+
+#f1 {
+    background-color: red;
+    order: 3;
+}
+
+#f2 {
+    background-color: green;
+    order: 3;
+}
+
+#f3 {
+    background-color: yellow;
+    order:3;
+}
