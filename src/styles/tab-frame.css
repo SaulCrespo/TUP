@@ -1,36 +1,54 @@
+/* Contenedor del elemento tab-frame  */
 .tab-frame {
     flex-flow: wrap;
     justify-content: flex-start;
     padding:none;
 }
 
+/* Clase para las pestañas*/
 .tab {
     margin:none;
+    padding:1%;
     max-width: 200px;
     max-height: 50px;
     background-color: var(--color_0);
 }
 
-#empty {
-    min-width: 600px;
+/* Hover para las pestañas */
+.tab:hover {
+    background-color: antiquewhite;
 }
 
+/* El Frame que se muestra al hacer el respectivo hover. */
+.tab:hover + .frame {
+    display:inline-block;
+}
+
+/* Pestaña vacía para completar la barra de pestañas. */
+#empty {
+    min-width: 477px;
+}
+
+/* Para todos los frames igual */
 .frame {
     min-width: 800px;
     min-height: 500px;
-    /* display: none;     */
+    display: none;    
 }
 
+/* Frame nº 1*/
 #f1 {
     background-color: red;
     order: 3;
 }
 
+/* Frame nº 2*/
 #f2 {
     background-color: green;
     order: 3;
 }
 
+/* Frame nº 3*/
 #f3 {
     background-color: yellow;
     order:3;
