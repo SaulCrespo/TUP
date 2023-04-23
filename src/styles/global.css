@@ -3,12 +3,42 @@ Aquí se almacenarán las variables globales que se usarán en todo el código H
 Esto me permitirá guardar una línea de diseño más fácilmente.
 */
 html {
-    --color_0: rgb(0,0,0);
+    /* --color_0: rgb(0,0,0);
     --color_1: rgb(180,0,0);
     --color_2: rgb(0,100,0);
     --color_3: rgb(0,0,160);
     --color_4: rgb(230,230,0);
+    --color_5: rgb(255,255,255); */
+
+    /* Warm sunrise */
+    /* --color_0: #FEDC97;
+    --color_1: #FEB144;
+    --color_2: #FEA12E;
+    --color_3: #FF8C42;
+    --color_4: #FF5233;
+    --color_5: rgb(255,255,255); */
+
+    /* Blue Sunrise*/
+    --color_0: #F6D2B6; 
+    --color_1: #F6B9A7; 
+    --color_2: #F69C9D;
+    --color_3: #F6737E; 
+    --color_4: #F6536B;
     --color_5: rgb(255,255,255);
+
+    /* --color_0: #E5F5FF; 
+    --color_1: #C8E0FF; 
+    --color_2: #FFCCE5S;
+    --color_3: #F6737E; 
+    --color_4: #F6536B;
+    --color_5: rgb(255,255,255); */
+
+    /* #E5F5FF (Baby Blue)
+#C8E0FF (Powder Blue)
+#FFCCE5 (Pale Pink)
+#FFA3C4 (Pale Magenta)
+#FF809E (Pale Red) */
+
 }
 
 body {
