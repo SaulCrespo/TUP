@@ -24,6 +24,19 @@
     display:inline-block;
 }
 
+/* Esto debería hacer que .resumen no se vea al hacer hover sobre una pestaña*/
+.tab:hover ~ .default {
+    display: none;
+}
+
+.frame:hover ~ .default {
+    display: none;
+}
+
+#empty:hover ~ .default {
+    display: inline-block;
+}
+
 
 
 /* Pestaña vacía para completar la barra de pestañas. */
@@ -38,35 +51,34 @@
     display: none;    
 }
 
+/* Para que el frame se siga viendo al pasar el ratón por encima */
 .frame:hover {
     display:inline-block;
 }
 
-.resumen {
+/* Default frame */
+.default {
     min-width: 800px;
     min-height: 500px;
     order: 3;
     background-color: black;
 }
 
-/* Frame nº 1*/
+/* Frame nº 1. Rojo */
 #f1 {
     background-color: red;
     order: 3;
 }
 
-/* Frame nº 2*/
+/* Frame nº 2. Verde */
 #f2 {
     background-color: green;
     order: 3;
 }
 
-/* Frame nº 3*/
+/* Frame nº 3. Amarillo */
 #f3 {
     background-color: yellow;
     order:3;
 }
 
-.tab:hover + .resumen {
-    display: none;
-}

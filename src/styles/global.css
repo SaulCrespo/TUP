@@ -53,6 +53,7 @@ aside {
     background-color:aqua;
 }
 
+/* Esto es para la página de index, pero es temporal */
 #index {
     background-image: url("../img/background.jpeg");
     background-repeat: no-repeat;
