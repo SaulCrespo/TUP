@@ -13,11 +13,11 @@ html {
     /* Warm sunrise */
     --color_0: #FEDC97;
     --color_1: #FEB144;
-    --color_2: #FEA12E;
-    --color_3: #FF8C42;
-    --color_4: #FF5233;
-    --color_5: rgb(255,255,255);
-    --color_6: rgb(19, 72, 120);
+    --color_2: #ffbc69;
+    --color_3: #ffa46b;
+    --color_4: #f7ab47;
+    --color_5: rgb(6, 46, 84);
+     --color_6: rgb(6, 46, 84);
 
     /* Blue Sunrise*/
     /* --color_0: #F6D2B6; 
@@ -25,7 +25,8 @@ html {
     --color_2: #F69C9D;
     --color_3: #F6737E; 
     --color_4: #F6536B;
-    --color_5: rgb(255,255,255); */
+    --color_5: rgb(255,255,255);
+    --color_6: rgb(6, 46, 84); */
 
     /* Blue Sky Sunrise */
     /* --color_0: #E5F5FF; 
@@ -33,7 +34,8 @@ html {
     --color_2: #FFCCE5;
     --color_3: #F6737E; 
     --color_4: #FF809E;
-    --color_5: rgb(255,255,255); */
+    --color_5: rgb(255,255,255);
+    --color_6: rgb(6, 46, 84); */
 
     /* #E5F5FF (Baby Blue)
 #C8E0FF (Powder Blue)
@@ -53,6 +55,10 @@ aside {
 
 #index {
     background-image: url("../img/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 100vw;
+    background-attachment: fixed;
 }
 
 /*-------------------------------------------------------------Aquí Comienza el Main-----------------------------------------------------*/

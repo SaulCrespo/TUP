@@ -24,6 +24,8 @@
     display:inline-block;
 }
 
+
+
 /* Pestaña vacía para completar la barra de pestañas. */
 #empty {
     min-width: 477px;
@@ -34,6 +36,17 @@
     min-width: 800px;
     min-height: 500px;
     display: none;    
+}
+
+.frame:hover {
+    display:inline-block;
+}
+
+.resumen {
+    min-width: 800px;
+    min-height: 500px;
+    order: 3;
+    background-color: black;
 }
 
 /* Frame nº 1*/
@@ -52,4 +65,8 @@
 #f3 {
     background-color: yellow;
     order:3;
+}
+
+.tab:hover + .resumen {
+    display: none;
 }

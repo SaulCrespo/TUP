@@ -64,7 +64,7 @@ header h2 a {
 /*El contenedor para el menú de navegación del Header*/
 nav {
     display:flex;
-    justify-content: center;
+    justify-content: flex-end;
     min-width:40vw;
 }
 
