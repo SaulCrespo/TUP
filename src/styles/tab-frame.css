@@ -1,17 +1,36 @@
+@keyframes bounceIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    60% {
+      transform: translateX(10%);
+    }
+    80% {
+      transform: translateX(-10%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+
 /* Contenedor del elemento tab-frame  */
 .tab-frame {
     margin: 5%;
     flex-flow: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding:none;
+    animation: bounceIn 2s ease-out;
 }
 
 /* Clase para las pestañas*/
 .tab {
     margin:none;
-    padding-left:2%;
+    padding-left:2.4%;
+    padding-right: 2.4%;
     font-size: 90%;
-    max-width: 30vw;
+    text-align: center;
+    min-width: 15%;
     max-height: 10vh;
     background-color: var(--color_0);
 }
@@ -23,7 +42,7 @@
 
 /* El Frame que se muestra al hacer el respectivo hover. */
 .tab:hover + .frame {
-    display:inline-block;
+    display:flex;
 }
 
 /* Esto debería hacer que .resumen no se vea al hacer hover sobre una pestaña*/
@@ -32,7 +51,7 @@
 }
 
 #t0:hover ~ .default {
-    display: inline-block;
+    display: flex;
 }
 
 .frame:hover ~ .default {
@@ -41,48 +60,36 @@
 
 /* Para todos los frames igual */
 .frame {
-    min-width: 90vw;
+    min-width: 100%;
     min-height: 500px;
     display: none;    
 }
 
 /* Para que el frame se siga viendo al pasar el ratón por encima */
 .frame:hover {
-    display:inline-block;
+    display:flex;
+    justify-content: felx-start;
 }
 
 /* Default frame */
 .default {
-    min-width: 90 vw;
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
     min-height: 500px;
     order: 3;
-    background-color: rgb(97, 213, 255);
+    background-color: rgb(22, 57, 69);
 }
+
 .frame {
+    min-width: 100%;
+    max-width: 100%;
     background-color: rgb(22, 57, 69);
     order: 3;
 }
 
-/* Frame nº 1. Rojo */
-/* #f1 {
-    background-color: rgb(97, 213, 255);
-    order: 3;
-} */
+.frame-text {
+    padding:2%;
+}
 
-/* Frame nº 2. Verde */
-/* #f2 {
-    background-color: rgb(97, 213, 255);
-    order: 3;
-} */
-
-/* Frame nº 3. Amarillo */
-/* #f3 {
-    background-color: yellow;
-    order:3;
-} */
-
-/* #f4 {
-    background-color: yellow;
-    order:3;
-} */
 
