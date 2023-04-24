@@ -17,23 +17,36 @@
 /* Contenedor del elemento tab-frame  */
 .tab-frame {
     margin: 5%;
+    display: flex;
     flex-flow: wrap;
     justify-content: space-between;
     padding:none;
     animation: bounceIn 2s ease-out;
+    mask-type: alpha;   
+    border-radius: 4vw 4vw 4vw 4vw;
+    box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
 }
 
+.tab-frame .tab h2 {
+    font-size: 1rem;
+}
+
+.tab-frame:hover .tab {
+    display: flex;
+}
 /* Clase para las pestañas*/
 .tab {
+    display:none;
     margin:none;
     padding-left:2.4%;
     padding-right: 2.4%;
-    font-size: 90%;
+    font-size: 1rem;
     text-align: center;
-    min-width: 15%;
+    width: 10%;
     max-height: 10vh;
     background-color: var(--color_0);
 }
+
 
 /* Hover para las pestañas */
 .tab:hover {
@@ -52,6 +65,14 @@
 
 #t0:hover ~ .default {
     display: flex;
+}
+
+#t0 {
+    border-radius: 20vw 0vw 0vw 0vw;
+}
+
+#t4 {
+    border-radius: 0vw 20vw 0vw 0vw;
 }
 
 .frame:hover ~ .default {
@@ -74,17 +95,22 @@
 /* Default frame */
 .default {
     display: flex;
-    min-width: 100%;
     max-width: 100%;
     min-height: 500px;
     order: 3;
     background-color: rgb(22, 57, 69);
+    border-radius: 0vw 0vw 4vw 4vw;
+}
+
+.tab-frame:hover .default {
+    min-width: 100%;
 }
 
 .frame {
     min-width: 100%;
     max-width: 100%;
     background-color: rgb(22, 57, 69);
+    border-radius: 0vw 0vw 4vw 10vw;
     order: 3;
 }
 
@@ -92,4 +118,30 @@
     padding:2%;
 }
 
+.picture {
+    max-width: 30vw;
+    border-radius: 0vw 0vw 0vw 4vw;
+}
+.frame:hover ~ #cover{
+    display:none;
+}
 
+.tab:hover ~ #cover{
+    display:none;
+}
+
+#cover {
+    display: flex;
+}
+
+.tab-frame:hover #cover {
+    display:none;
+}
+
+#sect-resumen {
+    display:none;
+}
+
+.tab-frame:hover #sect-resumen {
+    display:flex;
+}

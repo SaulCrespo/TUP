@@ -5,9 +5,12 @@
         <title>Saúl Crespo</title>
         <link rel="stylesheet" href="../styles/global.css">
         <link rel="stylesheet" href="../styles/header.css">
+        <link rel="stylesheet" href="../styles/animations.css">
+        <link rel="stylesheet" href="../styles/tab-frame.css">
         <link rel="icon" href="../img/favicon.png">
     </head>
     <body>
+        <div class="global-animation-container">
         <header>
             <div class="logo">
                 <img id="logo" src="../img/logo.png">
@@ -29,19 +32,128 @@
 
         </aside> -->
         <main>
-            <section>
-                <article>
-                    <p>Lorem ipsum dolor sit amet consectetur,
-                    adipisicing elit. Cum nesciunt odio harum amet,
-                    adipisci, et temporibus labore, repudiandae
-                    quod modi incidunt corrupti in. Sit,
-                    commodi consequatur dolor sunt excepturi eaque!</p>
-                </article>
+            <section class="tab-frame">
+            
+                <div class="tab" id="t0">
+                    <h2>Resumen</h2>
+                </div>
+                <div class="tab" id="t1">
+                    <h2>Estudios realizados</h2>
+                </div>
+                <div class="frame" id="f1">
+                    <img class="picture" src="../img/estudios_1.jpg">
+                    <div class="frame-text">
+                        <h2>Estudios Realizados</h2>
+                        <ul>
+                            <li>Grado Superior en Desarrollo de Aplicaciones Multiplataforma<br>
+                                2022-2024. CEINMARK (Santander)</li>
+                            <li>Master en Violin de Jazz y Músicas Improvisadas<br>
+                                2015-2017. Centre Des Musiques Didier Lockwood (Paris)</li>
+                            <li>Grado En Interpretación de Violín<br>
+                                2010-2014. CONSMUPA (Oviedo)</li>
+                            <li>Bachillerato<br>
+                                2008-2010. IES Jose María Pereda (Santander)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab" id="t2">
+                    <h2>Experiencia profesional</h2>
+                </div>
+                <div class="frame" id="f2">
+                    <img class="picture" src="../img/experiencia-profesional.jpg">
+                    <div class="frame-text">
+                        <h2>Experiencia Profesional</h2>
+                        <ul>
+                            <li>Profesor de violín, piano, guitarra<br>
+                            2020-Actualidad. Musicalidad Gestión y Servicios(Colindres, Argoños, Solares)</li>
+                            <li>Violinista, arreglos<br>
+                            2022-Actualidad. Soneto 21 (Cantabria, Burgos)</li>
+                            <li>Pianista acompañante<br>
+                            2021-Actualidad. Coral Maristerra (Colindres)</li>
+                            <li>Violinista, Diseño gráfico, Edición de vídeo<br>
+                            2017-2020. JAZZTEDIGO (Santander)</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="tab" id="t3">
+                    <h2>Habilidades técnicas</h2>
+                </div>
+                <div class="frame" id="f3">
+                    <img class="picture" src="../img/hard_skills.jpg">
+                        <div class="frame-text">
+                        <h2>Habilidades técnicas</h2>
+                        <ul>
+                            <li>Idiomas</li>
+                            <ul>
+                                <li>Nativo: Español</li>
+                                <li>Plenas Competencias Profesionales: Inglés, Francés</li>
+                            </ul>
+                            <li>Programación:</li>
+                            <ul>
+                                <li>Lenguajes: Java, Rust, TypeScript, Python, PHP, C</li>
+                                <li>Marcas: HTML, CSS</li>
+                                <li>FrameWorks: Node, React</li>
+                                <li>Bases De Datos: MySQL</li>
+                                <li>CMS: Wordpress, Moodle</li>
+                            </ul>
+                            <li>Software</li>
+                            <ul>
+                                <li>IDE: NeoVim, Eclipse, Visual Studio Code, MySQL WorkBench</li>
+                                <li>Imagen: Adobe Photoshop</li>
+                                <li>Video: Adobe Premiere, DaVinci Resolve, After Effects</li>
+                                <li>Audio: Fl Studio, Avid ProTools, Audacity</li>
+                                <li>Documentos: Ms Office, Musescore</li>
+                            </ul>
+                            <li>Instrumentos</li>
+                            <ul>
+                                <li>Maestría: Composición musical y arreglos, Violín, viola, quinton</li>
+                                <li>Competente: Piano, Guitarra, Bajo Eléctrico</li>
+                                <li>Intermedio: Batería, Cajón Flamenco, Percusiones, Canto</li>
+                            </ul>
+                        </ul>
+                        </div>    
+                </div>
+                <div class="tab" id="cover">
+                    <h2>Sobre mí</h2>
+                </div>
+                <div class="tab" id="t4">
+                    <h2>Habilidades blandas</h2>
+                </div>
+                <div class="frame" id="f4">
+                    <img class="picture" src="../img/soft_skills.jpg">
+                    <div class="frame-text">
+                        <h2>Habilidades blandas</h2>
+                    </div>
+                    
+                </div>
+                
+                <!-- En esta sección estará el resumen y la información de contacto -->
+                <div class="default">
+                <img class="picture" src="../img/saul-curriculum.jpg">
+                <section id="sect-resumen">
+                    <article id="resumen">
+                        <h2>Resumen</h2>
+                        <p>Violinista reconvertido en programador al encontrar un mundo lleno de posibilidades
+                        en esta nueva disciplina profesional.
+                        </p>
+                        <h4>Puesto de trabajo al que aspiro</h4>
+                        <p>Estoy buscando un puesto de trabajo como programador a jornada completa, bien
+                        presencial en la zona de Santander o remoto.
+                        </p>
+                    </article>
+                    <article id="contact">
+                        <h2>Información de contacto</h2>
+                        <!-- Falta rellenar el contenido.-->
+                    </article>
+                </section>
+                </div>
             </section>
         </main>
 
         <footer>
 
         </footer>
+    </div>
     </body>
 </html>
