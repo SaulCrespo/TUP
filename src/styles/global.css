@@ -96,6 +96,10 @@ article:hover ul {
     justify-content: space-evenly;
 }
 
+.picture {
+    max-width: 30vw;
+}
+
 .card {   
     padding-top: 0.5%;
     width: 100px;

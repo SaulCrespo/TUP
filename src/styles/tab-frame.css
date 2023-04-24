@@ -1,5 +1,6 @@
 /* Contenedor del elemento tab-frame  */
 .tab-frame {
+    margin: 5%;
     flex-flow: wrap;
     justify-content: flex-start;
     padding:none;
@@ -8,9 +9,10 @@
 /* Clase para las pestañas*/
 .tab {
     margin:none;
-    padding:1%;
-    max-width: 200px;
-    max-height: 50px;
+    padding-left:2%;
+    font-size: 90%;
+    max-width: 30vw;
+    max-height: 10vh;
     background-color: var(--color_0);
 }
 
@@ -29,24 +31,17 @@
     display: none;
 }
 
-.frame:hover ~ .default {
-    display: none;
-}
-
-#empty:hover ~ .default {
+#t0:hover ~ .default {
     display: inline-block;
 }
 
-
-
-/* Pestaña vacía para completar la barra de pestañas. */
-#empty {
-    min-width: 477px;
-}
+.frame:hover ~ .default {
+    display: none;
+} 
 
 /* Para todos los frames igual */
 .frame {
-    min-width: 800px;
+    min-width: 90vw;
     min-height: 500px;
     display: none;    
 }
@@ -58,27 +53,36 @@
 
 /* Default frame */
 .default {
-    min-width: 800px;
+    min-width: 90 vw;
     min-height: 500px;
     order: 3;
-    background-color: black;
+    background-color: rgb(97, 213, 255);
+}
+.frame {
+    background-color: rgb(22, 57, 69);
+    order: 3;
 }
 
 /* Frame nº 1. Rojo */
-#f1 {
-    background-color: red;
+/* #f1 {
+    background-color: rgb(97, 213, 255);
     order: 3;
-}
+} */
 
 /* Frame nº 2. Verde */
-#f2 {
-    background-color: green;
+/* #f2 {
+    background-color: rgb(97, 213, 255);
     order: 3;
-}
+} */
 
 /* Frame nº 3. Amarillo */
-#f3 {
+/* #f3 {
     background-color: yellow;
     order:3;
-}
+} */
+
+/* #f4 {
+    background-color: yellow;
+    order:3;
+} */
 
