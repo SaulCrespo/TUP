@@ -17,14 +17,24 @@
 /* Contenedor del elemento tab-frame  */
 .tab-frame {
     margin: 5%;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
+    width:fit-content;
+    display: block;
     padding:none;
-    animation: bounceIn 2s ease-out;
-    mask-type: alpha;   
+    animation: bounceIn 2s ease-out; 
     border-radius: 4vw 4vw 4vw 4vw;
     box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
+    transform: scale(0.5,0.5);
+    
+    transition: 1s;
+}
+
+/* Al hacer hover sobre el elemento tab-frame */
+.tab-frame:hover {
+    transform:none;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
 }
 
 .tab-frame .tab h2 {
@@ -42,7 +52,7 @@
     padding-right: 2.4%;
     font-size: 1rem;
     text-align: center;
-    width: 10%;
+    width: 15%;
     max-height: 10vh;
     background-color: var(--color_0);
 }
@@ -96,7 +106,7 @@
 .default {
     display: flex;
     max-width: 100%;
-    min-height: 500px;
+    min-height: fit-content;
     order: 3;
     background-color: rgb(22, 57, 69);
     border-radius: 0vw 0vw 4vw 4vw;
@@ -120,8 +130,13 @@
 
 .picture {
     max-width: 30vw;
+    border-radius: 0vw 0vw 4vw 4vw;
+}
+
+.tab-frame:hover .picture {
     border-radius: 0vw 0vw 0vw 4vw;
 }
+
 .frame:hover ~ #cover{
     display:none;
 }
@@ -132,6 +147,9 @@
 
 #cover {
     display: flex;
+    width: 95%;
+    justify-content: center;
+    border-radius: 4vw 4vw 0vw 0vw;
 }
 
 .tab-frame:hover #cover {
