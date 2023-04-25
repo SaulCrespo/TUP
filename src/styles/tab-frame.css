@@ -1,15 +1,19 @@
 @keyframes bounceIn {
     0% {
-      transform: translateX(-100%);
+      pointer-events: none;
+      transform: translateX(-100%) scale(0.5);
     }
     60% {
-      transform: translateX(10%);
+        pointer-events: none;
+      transform: translateX(10%) scale(0.5) rotate(180deg);
     }
     80% {
-      transform: translateX(-10%);
+    pointer-events: none;
+      transform: translateX(-10%) scale(0.5) rotate(300deg);
     }
     100% {
-      transform: translateX(0%);
+      transform: translateX(60vw) scale(0.5) rotate(20deg);
+      pointer-events: auto;
     }
   }
 
@@ -23,9 +27,9 @@
     animation: bounceIn 2s ease-out; 
     border-radius: 4vw 4vw 4vw 4vw;
     box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
-    transform: scale(0.5,0.5);
-    
+    transform: scale(0.5,0.6) translateX(95vw) translateY(40vh) rotate(20deg);
     transition: 1s;
+    /* pointer-events: none; */
 }
 
 /* Al hacer hover sobre el elemento tab-frame */
