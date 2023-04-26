@@ -15,8 +15,16 @@
       transform: translateX(60vw) scale(0.5) rotate(20deg);
       pointer-events: auto;
     }
-  }
+}
 
+@keyframes identifier {
+    0% {
+        transform: scale(0.6,0.7) translateX(55vw) translateY(-5vh) rotate(20deg);
+    }
+    100% {
+        transform: rotate(0deg) scale(1,1) translateX(0vw) translateY(-5vh);
+    }
+}
 
 /* Contenedor del elemento tab-frame  */
 .tab-frame {
@@ -24,22 +32,25 @@
     width:fit-content;
     display: block;
     padding:none;
-    animation: bounceIn 2s ease-out; 
     border-radius: 4vw 4vw 4vw 4vw;
     box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
-    transform: scale(0.5,0.6) translateX(95vw) translateY(40vh) rotate(20deg);
-    transition: 1s;
+    transform: scale(0.5,0.6) translateX(95vw) rotate(20deg);
     /* pointer-events: none; */
 }
 
 /* Al hacer hover sobre el elemento tab-frame */
 .tab-frame:hover {
-    transform:none;
+    position: absolute;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
     justify-content: space-between;
+    animation: identifier 2s ease-out forwards;
+    animation-fill-mode: both;
+    transition: 2s;
+    
 }
+
 
 .tab-frame .tab h2 {
     font-size: 1rem;
@@ -52,8 +63,8 @@
 .tab {
     display:none;
     margin:none;
-    padding-left:2.4%;
-    padding-right: 2.4%;
+    padding-left:2.5%;
+    padding-right: 2.5%;
     font-size: 1rem;
     text-align: center;
     width: 15%;
@@ -150,10 +161,18 @@
 }
 
 #cover {
+    padding-top: 0.01%;
     display: flex;
     width: 95%;
+    max-height: 14vh;
+    font-size: 2rem;
     justify-content: center;
     border-radius: 4vw 4vw 0vw 0vw;
+}
+
+#cover h1 {
+    margin-top: -0.1vh;
+    transform: translateY(10%);
 }
 
 .tab-frame:hover #cover {
