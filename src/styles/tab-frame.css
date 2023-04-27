@@ -19,7 +19,7 @@
 
 @keyframes identifier {
     0% {
-        transform: scale(0.9,1.5) translateX(55vw) translateY(0vh) rotate(20deg);
+        transform: scale(0.9,1.5) translateX(55vw) translateY(0vh) rotate(17deg);
     }
     100% {
         transform: rotate(0deg) scale(1,1) translateX(0vw) translateY(-5vh);
@@ -32,6 +32,7 @@
     width:fit-content;
     display: block;
     padding:none;
+    border: 1px solid black;
     border-radius: 4vw 4vw 4vw 4vw;
     box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
     transform: scale(0.5,0.6) translateX(95vw) rotate(20deg);
@@ -170,6 +171,10 @@
     font-size: 2rem;
     
     border-radius: 4vw 4vw 0vw 0vw;
+}
+
+#cover:hover ~ .default {
+    display: flex;
 }
 
 #cover h1 {
