@@ -17,7 +17,7 @@
     }
 }
 
-@keyframes identifier {
+@keyframes cv-animation {
     0% {
         transform: scale(0.5,0.6) translateX(55vw) translateY(30vh) rotate(17deg);
     }
@@ -35,8 +35,16 @@
     border: 1px solid black;
     border-radius: 4vw 4vw 4vw 4vw;
     box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
-    transform: scale(0.35,0.4) translateX(180vw) translateY(70vh) rotate(20deg);
+    
     /* pointer-events: none; */
+}
+
+#cv {
+    transform: scale(0.35,0.4) translateX(180vw) translateY(70vh) rotate(20deg);
+}
+
+#cv:hover {
+    animation: cv-animation 1s ease-out forwards;
 }
 
 /* Al hacer hover sobre el elemento tab-frame */
@@ -46,7 +54,6 @@
     flex-direction: row;
     flex-flow: wrap;
     justify-content: space-between;
-    animation: identifier 1s ease-out forwards;
     animation-fill-mode: both;
     transition: 2s;
     border: none;
