@@ -103,3 +103,7 @@ article:hover ul {
     z-index: -4;
     overflow:hidden;
 }
+
+.global-animation-container {
+    animation: bounceIn 3s ease-in-out;
+}

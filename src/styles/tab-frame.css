@@ -32,7 +32,7 @@
     width:fit-content;
     display: block;
     padding:none;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 4vw 4vw 4vw 4vw;
     box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
     
@@ -44,7 +44,7 @@
 }
 
 #cv:hover {
-    animation: cv-animation 1s ease-out forwards;
+    animation: cv-animation 2s ease-out forwards;
 }
 
 /* Al hacer hover sobre el elemento tab-frame */
@@ -55,7 +55,7 @@
     flex-flow: wrap;
     justify-content: space-between;
     animation-fill-mode: both;
-    transition: 2s;
+    transition: 4s ;
     border: none;
     
 }
