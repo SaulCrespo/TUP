@@ -56,7 +56,7 @@ aside {
 
 /* Esto es para la página de index, pero es temporal */
 #index {
-    background-image: url("../img/background.jpeg");
+    background-image: url("../img/cross-mountains.png");
     background-repeat: no-repeat;
     background-position: 0;
     background-size: 100vw;
@@ -107,3 +107,18 @@ article:hover ul {
 .global-animation-container {
     animation: bounceIn 3s ease-in-out;
 }
+
+#bienvenido {
+    font-size: 5vw;;
+    color:rgb(6, 46, 84);
+    position: absolute;
+    top: 20vh;
+    left: 25vw;
+    cursor:default;
+}
+
+#bienvenido span:hover {
+    transition: 0.5s;
+    color: black;
+}
+
