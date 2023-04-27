@@ -1,0 +1,11 @@
+.gallery {
+    background-color: black;
+    display:flex;
+    padding:10px;
+    width: fit-content;
+}
+
+.gallery-picture {
+    margin: 5px;
+    width:20vw;
+}
