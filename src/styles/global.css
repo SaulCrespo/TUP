@@ -122,3 +122,8 @@ article:hover ul {
     color: black;
 }
 
+#bienvenido span:hover::before {
+    color: rgb(145, 145, 145);
+}
+
+

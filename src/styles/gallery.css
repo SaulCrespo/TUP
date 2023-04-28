@@ -1,7 +1,7 @@
 .gallery {
     background-color: black;
     display:flex;
-    padding:10px;
+    padding:5px;
     width: fit-content;
 }
 
@@ -9,3 +9,22 @@
     margin: 5px;
     width:20vw;
 }
+
+/* Define the styles for the element */
+.element {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin:200px;
+    transition: transform 0.5s;
+  }
+  
+  /* Define the styles for the element when it's hovered over from the left */
+  .element:hover {
+    transform: translateX(-50px);
+  }
+  
+  /* Define the styles for the element when it's hovered over from the right */
+  .element:hover {
+    transform: translateX(50px);
+  }
