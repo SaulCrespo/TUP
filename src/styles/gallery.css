@@ -7,32 +7,57 @@
 
 .gallery {
     background-color: black;
-    display:flex;
+    display:grid;
+    grid-template: 5px 1fr 5px / 5px repeat(3,1fr 5px);
     padding:5px;
-    width: fit-content;
+    width: 60vw;
     overflow: hidden;
 }
 
 .gallery-picture {
+    grid-column-end: span 2;
+    grid-row-end: span 3;
     margin: 5px;
     width:20vw;
     height: auto;
-    transition: 1s ease-in-out;
+    -ms-grid-column-span: 2;
+    transition: transform 1s ease-in-out;
     transform-origin: center center;
     overflow:hidden;
 
 
 }
 
-.gallery-picture:hover {
-  transform: scale(1.2) translateX(1.5vw);
+/* .gallery-picture:hover {
+  transform: scale(1.2);
+  width:100%;
+  overflow: hidden;
   cursor: pointer;
-}
+} */
 
 .gallery-image-container {
-  fill:black;
+  grid-column-end: span 2;
+  grid-row-end: span 3;
+  fill:rgb(174, 17, 17);
   width: 20vw;
   height: 75vh;
   overflow: hidden;
   overflow-x: hidden;
+}
+
+.gallery-image-container:hover .gallery-picture {
+  transform: scale(1.2);
+}
+
+
+#gic1 {
+
+}
+
+#gic1 {
+  
+}
+
+#gic1 {
+  
 }
