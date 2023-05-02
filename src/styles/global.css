@@ -126,4 +126,15 @@ article:hover ul {
     color: rgb(145, 145, 145);
 }
 
+.playlist {
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+}
+
+audio {
+    border: 1px solid black;
+    fill: #f7ab47;
+}
+
 
