@@ -1,0 +1,13 @@
+.text {
+    display: block;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#jesus-titulocentral {
+    display:block;
+    text-align: center;
+    /* margin:20vw; */
+
+}
