@@ -3,8 +3,6 @@
     text-align: center;
     padding-top:none;
     padding-bottom: none;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 #jesus-titulocentral {
@@ -35,6 +33,16 @@
     transform: rotate(20deg);
 }
 
+.text-slide {
+    width: 100vw;
+    min-height: 30vw;
+    left: 0px;
+    background-color: black;
+    border: 1px solid red;
+    overflow-x: hidden;
+     /* padding-left: 5%;
+    padding-right: 5%; */
+}
 
 .text h2 {
     cursor:default;
@@ -44,26 +52,31 @@
    font-size: 2vw;
    animation: text-left 1s ease-in-out;
    animation-play-state: paused;
+   padding: 5%;
 }
-.text h2:hover + p {
+.text h2:hover + .text-slide > p {
     animation-play-state:running;
-    animation-fill-mode: forwards;
+    animation-fill-mode:forwards;
     
 }
-
-.text p:hover + p {
-    animation-play-state: running;
-    animation-fill-mode: forwards;
+.text-slide:hover > p {
+    animation-play-state:running;
+    animation-fill-mode:forwards;
 }
 
-.text p:hover:before  p {
-    animation-play-state: running;
-    animation-fill-mode: forwards;
+.text .text-slide:hover + .text-slide > p  {
+    animation-play-state:running;
+    animation-fill-mode:forwards;
+}
+
+.text p:hover  p {
+    animation-play-state:running;
+    animation-fill-mode:forwards;
 }
 
 .text p:hover {
-    animation-play-state: running;
-    animation-fill-mode: forwards;
+    animation-play-state:running;
+    animation-fill-mode:forwards;
 }
 
 
