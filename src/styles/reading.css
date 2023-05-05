@@ -9,5 +9,57 @@
     display:block;
     text-align: center;
     /* margin:20vw; */
+}
 
+#apartados a {
+    all: unset;
+    cursor: pointer;
+    transition: 2s; 
+}
+
+#apartados {
+    justify-content: center;    
+}
+
+#apartados h1 {
+    margin: 5vw;
+}
+
+#menuconsiste {
+    transform: rotate(-20deg);
+}
+
+#menutu {
+    transform: rotate(20deg);
+}
+
+.text p: {
+    width: 100%;
+    animation-play-state: running;
+}
+
+.text p {
+   font-size: 2vw;
+   animation: text-left 2s ease-in-out;
+   animation-play-state: paused;
+}
+
+@keyframes text-left {
+    0% {
+        opacity:0;
+        transform: translateX(-50vw);
+    }
+
+    60% {
+        transform: translateX( 10vw);
+    }
+
+    80% {
+        transform: translateX(-5vw);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0vw);
+    }
 }
