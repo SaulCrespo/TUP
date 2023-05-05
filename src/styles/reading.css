@@ -50,7 +50,7 @@
 
 .text p {
    font-size: 2vw;
-   animation: text-left 0.5s ease-in-out;
+   animation: text-left 1s ease-in-out;
    animation-play-state: paused;
    padding: 5%;
 }
@@ -79,20 +79,22 @@
     animation-fill-mode:forwards;
 }
 
+/*No funciona*/
+/* esta propiedad solo existe en las páginas con mucho texto
+main:hover ~ header {
+    display: none;
+} */
+
+.text img {
+    width: 100%;
+    z-index: -1;
+}
 
 
 @keyframes text-left {
     0% {
         opacity:0;
-        transform: translateY(-50vh);
-    }
-
-    33% {
-        transform: translateY( 10vh);
-    }
-
-    66% {
-        transform: translateY(-5vh);
+        transform: translateY(50vh);
     }
 
     100% {

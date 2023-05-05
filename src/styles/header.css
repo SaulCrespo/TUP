@@ -10,12 +10,12 @@ header {
     left: 0;
     right: 0;
     z-index:20;
-    opacity: 0.3;
+    opacity: 0;
     transition: 1s;
 }
 
 header:hover {
-    opacity: 0.75;
+    opacity: 1;
 }
 
 /*Contenedores dentro del header*/
