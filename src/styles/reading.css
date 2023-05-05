@@ -1,6 +1,8 @@
 .text {
     display: block;
     text-align: center;
+    padding-top:none;
+    padding-bottom: none;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -33,16 +35,38 @@
     transform: rotate(20deg);
 }
 
-.text p: {
-    width: 100%;
-    animation-play-state: running;
+
+.text h2 {
+    cursor:default;
 }
 
 .text p {
    font-size: 2vw;
-   animation: text-left 2s ease-in-out;
+   animation: text-left 1s ease-in-out;
    animation-play-state: paused;
 }
+.text h2:hover + p {
+    animation-play-state:running;
+    animation-fill-mode: forwards;
+    
+}
+
+.text p:hover + p {
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+
+.text p:hover:before  p {
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+
+.text p:hover {
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+
+
 
 @keyframes text-left {
     0% {
