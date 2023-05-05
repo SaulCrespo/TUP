@@ -86,8 +86,9 @@ main:hover ~ header {
 } */
 
 .text img {
-    width: 100%;
-    z-index: -1;
+    width: 20vw;
+    z-index: -2;
+    position:relative;
 }
 
 
