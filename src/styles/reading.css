@@ -50,7 +50,7 @@
 
 .text p {
    font-size: 2vw;
-   animation: text-left 1s ease-in-out;
+   animation: text-left 0.5s ease-in-out;
    animation-play-state: paused;
    padding: 5%;
 }
@@ -84,19 +84,28 @@
 @keyframes text-left {
     0% {
         opacity:0;
-        transform: translateX(-50vw);
+        transform: translateY(-50vh);
     }
 
-    60% {
-        transform: translateX( 10vw);
+    33% {
+        transform: translateY( 10vh);
     }
 
-    80% {
-        transform: translateX(-5vw);
+    66% {
+        transform: translateY(-5vh);
     }
 
     100% {
         opacity: 1;
-        transform: translateX(0vw);
+        transform: translateY(0vh);
     }
+}
+
+#back-to-top {
+    position: fixed;
+    z-index: 30;
+    width: 10vh;
+    bottom: 5vh;
+    right: 5vh;
+    scroll-behavior: smooth;
 }
