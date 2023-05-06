@@ -1,0 +1,61 @@
+.slides {
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.slides-container {
+    width: 600vw;
+    display:flex;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.slide {
+    width: 100vw;
+    height: 96vh;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.slide:hover .prev {
+    display:block;
+}
+
+.slide:hover .next {
+    display:block;
+}
+
+.prev {
+    position:absolute;
+    z-index:20;
+    bottom: 30px;
+    left:30px;
+    display: none;
+}
+
+.next {
+    position: absolute;
+    z-index:20;
+    bottom: 30px;
+    right:30px;
+    transition: 2s;
+    display: none;
+}
+
+#slide-1 {
+    background-color: aqua;
+}
+#slide-2 {
+    background-color: red;
+}
+#slide-3 {
+    background-color: blue;
+}
+#slide-4 {
+    background-color: yellowgreen;
+}
+#slide-5 {
+    background-color: black;
+}
+#slide-6 {
+    background-color: orangered;
+}
