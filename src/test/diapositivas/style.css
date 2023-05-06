@@ -66,20 +66,3 @@
 #slide-6 {
     background-color: orangered;
 }
-
-.animated-text tspan {
-    opacity: 0;
-    animation: slide-in 1s ease forwards;
-  }
-  
-  @keyframes slide-in {
-    0% {
-      opacity: 0;
-      transform: translateX(-100%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-}
-  
