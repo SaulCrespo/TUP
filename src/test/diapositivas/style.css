@@ -21,6 +21,9 @@
     display:block;
 }
 
+.slide:hover .next {
+    display:block;
+}
 
 .prev {
     scroll-behavior: smooth;
@@ -28,6 +31,7 @@
     z-index:20;
     bottom: 30px;
     left:30px;
+    display: none;
 }
 
 .next {
@@ -36,13 +40,13 @@
     z-index:20;
     bottom: 30px;
     right:30px;
+    transition: 2s;
+    display: none;
 }
 
-.next:active, .next:focus, .slides-container:target {
+.next:active ~ .slide {
     transform: translateX(-100vw);
-    transition: transform 0.3s ease;
 }
-
 
 #slide-1 {
     background-color: aqua;
