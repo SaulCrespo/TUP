@@ -1,0 +1,19 @@
+.trigger:active,
+.trigger:focus,
+.content:target {
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.trigger2:active,
+.trigger2:focus,
+.content:target {
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.content {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}

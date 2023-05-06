@@ -13,6 +13,7 @@
 .slide {
     width: 100vw;
     height: 96vh;
+    text-align: center;
     overflow: hidden;
     overflow-x: hidden;
 }
@@ -20,26 +21,28 @@
     display:block;
 }
 
-.slide:hover .next {
-    display:block;
-}
 
 .prev {
+    scroll-behavior: smooth;
     position:absolute;
     z-index:20;
     bottom: 30px;
     left:30px;
-    display: none;
 }
 
 .next {
+    scroll-behavior: smooth;
     position: absolute;
     z-index:20;
     bottom: 30px;
     right:30px;
-    transition: 2s;
-    display: none;
 }
+
+.next:active, .next:focus, .slides-container:target {
+    transform: translateX(-100vw);
+    transition: transform 0.3s ease;
+}
+
 
 #slide-1 {
     background-color: aqua;
@@ -54,8 +57,25 @@
     background-color: yellowgreen;
 }
 #slide-5 {
-    background-color: black;
+    background-color: grey;
 }
 #slide-6 {
     background-color: orangered;
 }
+
+.animated-text tspan {
+    opacity: 0;
+    animation: slide-in 1s ease forwards;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+  
