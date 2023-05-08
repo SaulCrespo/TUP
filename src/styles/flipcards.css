@@ -65,14 +65,28 @@
 
 .ajedrez-introduccion {
     display: block;
-    text-align: center;
-    column-span: 2 fr;
+}
+
+.ajedrez-introduccion h2 {
+  text-align: center;
+  
+}
+
+.ajedrez-introduccion img {
+  margin-left: 10%;
 }
 
 .ajedrez-introduccion p {
-    font-size: larger;
+  text-align:justify;  
+  font-size: larger;
     margin-left: 2vw;
     margin-right: 2vw;
+}
+
+/* ---------------FIX ME----------------- */
+/* Para indentar la primera linea de cada parrafo */
+.ajedrez-introduccion p::first-line {
+  text-indent: 10vw;
 }
 
 .ajedrez-introduccion li {
