@@ -8,7 +8,7 @@ Imagenes ajedrez:
     -PROMPT: chess knight on a chess board surrounded by colorful particles with speed.
     -PROMPT: chess pawn on a chess board surrounded by colorful particles with speed.
     -PROMPT: torre ajedrez on a chess board surrounded by colorful particles with speed.
-    -PROMPT: tall chess piece with oval pointy head with a scar and a little sphere on top on a chess board surrounded by colorful particles with speed
+    -PROMPT: piece tall chess with oval pointy head with a scar and a little sphere on top on a chess board surrounded by colorful particles with speed
 Textos ajedrez:
     -PROMPT: ¿Por qué todo el mundo debería jugar al ajedrez?
     -PROMPT: ¿En qué consiste el ajedrez?
