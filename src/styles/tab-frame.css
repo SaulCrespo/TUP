@@ -125,7 +125,7 @@
     max-width: 100%;
     min-height: fit-content;
     order: 3;
-    background-color: rgb(22, 57, 69);
+    background-color: var(--color_7);
     border-radius: 0vw 0vw 4vw 4vw;
 }
 
@@ -136,7 +136,7 @@
 .frame {
     min-width: 100%;
     max-width: 100%;
-    background-color: rgb(22, 57, 69);
+    background-color: var(--color_7);
     border-radius: 0vw 0vw 4vw 10vw;
     order: 3;
 }
