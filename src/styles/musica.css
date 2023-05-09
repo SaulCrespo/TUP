@@ -23,7 +23,7 @@
 
 .spotify {
     width: 19vw;
-    height: 25vw;
+    height: 19vw;
 }
 
 .youtube {
@@ -33,5 +33,22 @@
 
 .spotify-elements {
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.textoJazz {
+    display: block;
+    padding:2%;
+}
+
+.textoJazz article p {
+    text-align: justify;
+}
+
+.jazz {
+    display:flex;
+    justify-content: space-between;
+    font-size: large;
 }
