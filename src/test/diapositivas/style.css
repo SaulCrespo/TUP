@@ -17,36 +17,49 @@
     overflow: hidden;
     overflow-x: hidden;
 }
-.slide:hover .prev {
-    display:block;
-}
-
-.slide:hover .next {
-    display:block;
-}
 
 .prev {
-    scroll-behavior: smooth;
-    position:absolute;
+    all: unset;
+    cursor: pointer;
+    size: fit-content;
+    position:relative;
     z-index:20;
-    bottom: 30px;
-    left:30px;
-    display: none;
+    bottom: -75%;
+    left:-45%;
+ 
 }
 
 .next {
-    scroll-behavior: smooth;
-    position: absolute;
+    all: unset;
+    cursor: pointer;
+    position: relative;
     z-index:20;
-    bottom: 30px;
-    right:30px;
+    bottom: -75%;
+    right:-45%;
     transition: 2s;
-    display: none;
+   
 }
 
-.next:active ~ .slide {
-    transform: translateX(-100vw);
+/* .next:hover {
+    display: block;
 }
+
+.prev:hover {
+    display: block;
+} */
+
+/* .next:active {
+    display: none;
+    transition: transform forwards;
+    transform: translateY(400px); 
+} */
+
+
+
+
+/* .next:active ~ .slide {
+    transform: translateX(-100vw);
+} */
 
 #slide-1 {
     background-color: aqua;

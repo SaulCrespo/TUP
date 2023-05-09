@@ -53,6 +53,27 @@
     
 }
 
+.tab-frame#about {
+    margin: 5%;
+    width:fit-content;
+    display: block;
+    /* padding:none; */
+    /* border: 1px solid black; */
+    border-radius: 4vw 4vw 4vw 4vw;
+    box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
+    
+    /* pointer-events: none; */
+}
+
+.tab-frame#about:hover {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border: none;
+    
+}
+
 
 .tab-frame .tab h2 {
     font-size: 1rem;
@@ -169,9 +190,14 @@
     justify-content: center;
     width: 95%;
     max-height: 14vh;
-    font-size: 2rem;
-    
+    font-size: 2rem; 
     border-radius: 4vw 4vw 0vw 0vw;
+}
+
+#cover[name="01"] {
+    max-height: 6vh;
+    font-size: 1rem;
+    border-radius: 2vw 2vw 0vw 0vw;
 }
 
 #cover:hover ~ .default {
