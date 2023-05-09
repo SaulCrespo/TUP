@@ -47,8 +47,13 @@
     text-align: justify;
 }
 
+.textoJazz  li {
+    text-align: right;
+}
+
 .jazz {
     display:flex;
     justify-content: space-between;
     font-size: large;
 }
+
