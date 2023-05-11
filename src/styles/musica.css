@@ -23,7 +23,7 @@
 
 .spotify {
     width: 19vw;
-    height: 19vw;
+    height: 22vw;
 }
 
 .youtube {
@@ -48,7 +48,8 @@
 }
 
 .textoJazz  li {
-    text-align: right;
+    text-align: justify;
+    margin: 10px;
 }
 
 .jazz {
