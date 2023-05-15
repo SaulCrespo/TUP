@@ -7,6 +7,10 @@
     justify-content: flex-start;
     text-align: center;
   }
+
+  .flip-card-section#dreamjob {
+    flex-direction: row;
+  }
   
   .flip-card {
     width: 18.8vw;
