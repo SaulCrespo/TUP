@@ -22,3 +22,6 @@ Textos ajedrez:
     etc. Ultimamente no juego mucho porque no tengo tiempo.
     -PROMPT:  Añádele, después del párrafo de los videos en youtube, un párrafo sobre
     cómo conocí gente en la iglesia que también jugaba.
+
+IMAGENES EMPRESA: 
+    -PROMPT: supervisor looking over computer screen with a cup of coffee.
