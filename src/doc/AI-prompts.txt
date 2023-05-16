@@ -25,3 +25,7 @@ Textos ajedrez:
 
 IMAGENES EMPRESA: 
     -PROMPT: supervisor looking over computer screen with a cup of coffee.
+    -PROMPT: upwards line in a whiteboard in an executive meeting with people in suits looking at it, blue and gray colors.
+    -PROMPT: money overflowing.
+    -PROMPT: I+D Generating musical code
+    -PROMPT: Books and code over dark background.
