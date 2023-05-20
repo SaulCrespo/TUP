@@ -42,7 +42,7 @@
 
 /* Al hacer hover sobre el elemento tab-frame */
 .tab-frame:hover {
-    position: absolute;
+    position: sticky;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;

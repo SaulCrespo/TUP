@@ -3,19 +3,22 @@ header {
     position: fixed;
     max-height: 67.250px;
     background-color: var(--color_2);
-    color: var(--color_6); 
+    color: var(--color_4); 
     display: flex;
     justify-content: space-between;
     top: 0;
-    left: 0;
+    /* left: 0; */
     right: 0;
     z-index:20;
-    opacity: 0;
-    transition: 1s;
+    opacity: 1;
+    transform: translateX(68vw);
+    transition: transform 1.5s ease-out;
 }
 
 header:hover {
+    transform: translateX(0vw);
     opacity: 1;
+    left: 0;
 }
 
 /*Contenedores dentro del header*/
@@ -37,12 +40,13 @@ header div {
 }
 
 #logo {
-    margin-left:20%;
+    margin-left:5%;
     margin-right:15%;
     transition: 2s;
 }
 
 #logo:hover {
+    width: 30%;
     margin-left: 10%;
     cursor: pointer;
 }
@@ -58,7 +62,10 @@ header div {
     font-size: larger;
 }
 
-
+header div h2 {
+    font-weight: 100;
+    font-size: 110%;
+}
 
 
 /*El enlace a la página index.html*/
@@ -71,8 +78,9 @@ header h2 a {
 nav {
     display:flex;
     justify-content: flex-end;
-    min-width:40vw;
+    min-width:50vw;
 }
+
 
 /* Enlaces que van a servir para navegar entre las diferentes páginas.*/
 nav a {
@@ -81,10 +89,10 @@ nav a {
     text-align: center;
     color: var(--color_5);
     /* background-color: var(--color_4);   */
-    border: 2px solid var(--color_4);
+    /* border: 2px solid var(--color_4); */
     border-radius: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
     padding-top: 3%;
     top: 0;
     margin: 0;
