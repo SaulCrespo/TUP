@@ -7,18 +7,17 @@ header {
     display: flex;
     justify-content: space-between;
     top: 0;
-    /* left: 0; */
     right: 0;
     z-index:20;
     opacity: 1;
-    transform: translateX(68vw);
-    transition: transform 1.5s ease-out;
+    transform: translateX(90vw);
+    transition: transform 1.5s ease-in-out;
+    border-radius: 0vw 0vw 0vw 2vw;
 }
 
 header:hover {
-    transform: translateX(0vw);
-    opacity: 1;
-    left: 0;
+    transform: translateX(5vw);
+    opacity: 1; 
 }
 
 /*Contenedores dentro del header*/
@@ -78,7 +77,7 @@ header h2 a {
 nav {
     display:flex;
     justify-content: flex-end;
-    min-width:50vw;
+    min-width:80vw;
 }
 
 
@@ -93,7 +92,7 @@ nav a {
     border-radius: 2%;
     padding-left: 7%;
     padding-right: 7%;
-    padding-top: 3%;
+    padding-top: 1.5%;
     top: 0;
     margin: 0;
     
