@@ -11,14 +11,14 @@ Esto me permitirá guardar una línea de diseño más fácilmente.
     --color_5: rgb(255,255,255); */
 
     /* Warm sunrise */
-    --color_0: #FEDC97;
-    --color_1: #FEB144;
-    --color_2: #ffbc69;
+    --color_0: #051626;
+    --color_1: #cfc9c1;
+    --color_2: #051626;
     --color_3: #cfc9c1;
     --color_4: #cfc9c1;
-    --color_5: rgba(83, 28, 0, 0.493);
+    --color_5: #cfc9c1;
      --color_6: rgb(21, 10, 31);
-     --color_7: rgb(22, 57, 69);
+     --color_7: #051626;
 
     /* Blue Sunrise*/
     /* --color_0: #F6D2B6; 
@@ -43,7 +43,7 @@ Esto me permitirá guardar una línea de diseño más fácilmente.
 #FFCCE5 (Pale Pink)
 #FFA3C4 (Pale Magenta)
 #FF809E (Pale Red) */
-    font-family: 'Monserrat';
+font-family: 'Lora', Serif;
 }
 
 body {
@@ -64,6 +64,9 @@ aside {
     background-attachment: fixed;
 }
 
+p {
+    line-height: 1.5;
+}
 
 /*-------------------------------------------------------------Aquí Comienza el Main-----------------------------------------------------*/
 main {

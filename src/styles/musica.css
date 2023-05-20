@@ -39,12 +39,17 @@
 }
 
 .textoJazz {
-    display: block;
-    padding:2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-indent: 2vw;
+    padding:3%;
 }
 
 .textoJazz article p {
+    font-size: 1.5vw;
     text-align: justify;
+    max-width: 66ch;
 }
 
 .textoJazz  li {
