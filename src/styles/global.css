@@ -14,10 +14,10 @@ Esto me permitirá guardar una línea de diseño más fácilmente.
     --color_0: #FEDC97;
     --color_1: #FEB144;
     --color_2: #ffbc69;
-    --color_3: #ffa46b;
-    --color_4: #f7ab47;
-    --color_5: rgb(6, 46, 84);
-     --color_6: rgb(6, 46, 84);
+    --color_3: #cfc9c1;
+    --color_4: #cfc9c1;
+    --color_5: rgba(83, 28, 0, 0.493);
+     --color_6: rgb(21, 10, 31);
      --color_7: rgb(22, 57, 69);
 
     /* Blue Sunrise*/
@@ -43,7 +43,7 @@ Esto me permitirá guardar una línea de diseño más fácilmente.
 #FFCCE5 (Pale Pink)
 #FFA3C4 (Pale Magenta)
 #FF809E (Pale Red) */
-
+    font-family: 'Monserrat';
 }
 
 body {
