@@ -146,6 +146,8 @@ audio {
     width: 94%;
 }
 
-
+area {
+    cursor: pointer;
+}
 
 

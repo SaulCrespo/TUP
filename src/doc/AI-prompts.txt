@@ -2,6 +2,9 @@ Animación CSS para el SVG de index.html:
     -PROMPT: I need a css animation to make an svg to increase its size from nothing to a width and a height of 500px.
 Animación para el tab-frame de about.html:
     -PROMPT: I need a CSS animation for an element that gets to the center of the viewport from the left, and then bounces a little bit
+Imagen de fondo:
+    -PROMPT: A small centered old rugged christian cross floating over a very dark blue background with colorful particles around.
+
 Imagenes ajedrez:
     -PROMPT: chess king on a chess board surrounded by colorful particles with speed.
     -PROMPT: chess queen on a chess board surrounded by colorful particles with speed.
