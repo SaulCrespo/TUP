@@ -98,7 +98,7 @@
 
 /* Hover para las pestañas */
 .tab:hover {
-    background-color: antiquewhite;
+    background-color:var(--color_4);
 }
 
 /* El Frame que se muestra al hacer el respectivo hover. */
