@@ -44,12 +44,6 @@ header div {
     transition: 2s;
 }
 
-#logo:hover {
-    width: 30%;
-    margin-left: 10%;
-    cursor: pointer;
-}
-
 /*Contenedor para el título central de la página*/
 .title {
     display: flex;
