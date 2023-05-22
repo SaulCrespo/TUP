@@ -1,32 +1,47 @@
 .homecard {
+    margin: 5%;
+    width:10vw;
+    display: block;
+    padding:none;
+    border-radius: 4vw 4vw 4vw 4vw;
+    box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
+    transform:rotate(-10deg);
+}
+
+
+
+.homecard .card-tab {
+    margin:none;
+    padding-left:2.5%;
+    padding-right: 2.5%;
+    font-size: 1rem;
+    text-align: center;
+    width: 15%;
+    min-height: fit-content;
+    min-width: 10vw;
+    background-color: var(--color_0);
 
 }
 
-.homecard:hover {
+.homecard .card-frame {
+    min-width: 10vw;
+    min-height: 30vh;
+    background-color: var(--color_0);
+}
+
+/* .homecard:hover .card-tab {
 
 }
 
-.homecard .tab {
-
-}
-
-.homecard .frame {
-
-}
-
-.homecard:hover .tab {
-
-}
-
-.homecard:hover .frame {
+.homecard:hover .card-frame {
     
-}
+} */
 
 .homecard#pasiones {
-
+    width: fit-content;
 }
 
-.homecard#pasiones:hover {
+/* .homecard#pasiones:hover {
     
 }
 
@@ -52,4 +67,17 @@
 
 .homecard#referencias:hover {
     
+} */
+
+.gallery {
+    width:100%;
+}
+
+#homegallery {
+    width: 10vw;
+    height: 20vh;
+}
+
+.homecard .gallery-picture {
+    width:3vw;
 }
