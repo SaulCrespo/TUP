@@ -3,7 +3,7 @@
         transform: scale(1,1) translateX(0vw) translateY(0vh) rotate(-10deg);
     }
     100% {
-        transform: rotate(0deg) scale(3,3) translateX(10vw) translateY(-5vh);
+        transform: rotate(0deg) scale(5,3) translateX(5vw) translateY(-5vh);
     }
 }
 
@@ -20,16 +20,16 @@
 
 
 
-.homecard-left .card-tab {
+.card-tab {
     margin:none;
     padding-left:2.5%;
     padding-right: 2.5%;
     font-size: 1rem;
     text-align: center;
-    width: 15%;
-    min-height: fit-content;
+    width: 10vw;
+    height: 10vh;
     min-width: 10vw;
-    background-color: var(--color_0);
+    background-color: #000000;
 
 }
 
@@ -38,10 +38,12 @@
     min-height: 30vh;
     background-color: var(--color_0);
     overflow: hidden;
+    border-radius: 0vw 0vw 2vw 2vw;
 }
 
 .homecard-left:hover {
     position: sticky;
+    top: 200px;
     animation: homecard-left-animation 4s;  
     /* display: flex;
     flex-direction: row;
@@ -97,6 +99,7 @@
 #pasiones .gallery {
     width:100%;
     height: 30vh;
+    border-radius: 0vw 0vw 2vw 2vw;
 }
 
 #homegallery {
