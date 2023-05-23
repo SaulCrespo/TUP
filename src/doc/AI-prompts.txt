@@ -32,3 +32,21 @@ IMAGENES EMPRESA:
     -PROMPT: money overflowing.
     -PROMPT: I+D Generating musical code
     -PROMPT: Books and code over dark background.
+
+IMAGENES JESUS:
+    -PROMPT: creation of the world.
+    -PROMPT: old testament.
+    -PROMPT: david vs goliath
+    -PROMPT: pergaminos, arpa y cetro
+    -PROMPT: apostles traveling through the mediterranean walking towars the horizon with an empty cross floating in the sky
+    -PROMPT: bold bearded greek guy from the first century writing a letter
+    -PROMPT: great white throne with a cross in the sky with miriads of people worshiping, angels on the left side in the sky and demons falling to the pit of fire on the right side
+    -PROMPT: wine and bread in a table, baroque painting
+    -PROMPT: jonah and the whale in the beach, with the ancient city of ninive in the background
+    -PROMPT: centered wheel of eyes in the sky surrounded by cherubims
+    -PROMPT: cross floating in the sky over a range of mountains at sunshine
+    -PROMPT: antique hand-crafted letter on a table
+    -PROMPT: 
+    -PROMPT: 
+    -PROMPT: 
+    -PROMPT: 
