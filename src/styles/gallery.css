@@ -29,12 +29,7 @@
 
 }
 
-/* .gallery-picture:hover {
-  transform: scale(1.2);
-  width:100%;
-  overflow: hidden;
-  cursor: pointer;
-} */
+
 
 .gallery-image-container {
   grid-column-end: span 2;
@@ -53,4 +48,26 @@
 
 #gic1 {
   z-index: 1;
+}
+
+.ai-gallery {
+  margin:2vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-container {
+  width:30vw;
+  transition: transform 1s;
+  background-color: var(--color_0);
+  border-radius: 0vw 0vw 2vw 2vw;
+  text-align: center;
+}
+
+.img-container img {
+  width:30vw;
+}
+
+.img-container:hover {
+  transform: scale(1.2);
 }
