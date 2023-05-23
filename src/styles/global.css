@@ -161,4 +161,9 @@ main > p {
     font-size: large;
 }
 
+.imagenes-texto {
+    display: flex;
+    justify-content: space-around;
+}
+
 
