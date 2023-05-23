@@ -47,6 +47,7 @@ IMAGENES JESUS:
     -PROMPT: cross floating in the sky over a range of mountains at sunshine
     -PROMPT: antique hand-crafted letter on a table
     -PROMPT: Now they shall construct an [a]ark of acacia wood [b]two and a half cubits [c]long, one and a half cubits [d]wide, and one and a half cubits [e]high. 11 You shall overlay it with pure gold, inside and out you shall overlay it, and you shall make a gold molding [f]around it. 12 You shall also cast four gold rings for it and [g]fasten them on its four feet; two rings shall be on one side of it, and two rings on the other side of it. 13 And you shall make poles of acacia wood and overlay them with gold. 14 You shall put the poles into the rings on the sides of the ark, to carry the ark with them. 15 The poles shall [h]remain in the rings of the ark; they shall not be removed from it. 16 You shall put into the ark the testimony which I shall give you. 17 “And you shall make [i]an atoning cover of pure gold, [j]two and a half cubits [k]long and one and a half cubits [l]wide. 18 You shall make two cherubim of gold; make them of hammered work [m]at the two ends of the atoning cover. 19 Make one cherub [n]at one end and one cherub [o]at the other end; you shall make the cherubim of one piece [p]with the atoning cover at its two ends. 20 And the cherubim shall have their wings spread upward, covering the atoning cover with their wings and [q]facing one another; the faces of the cherubim are to be turned toward the atoning cover. 21 Then you shall put the atoning cover [r]on top of the ark, and in the ark you shall put the testimony which I will give to you. 
-    -PROMPT: 
-    -PROMPT: 
-    -PROMPT: 
+
+
+IMAGENES CURRÍCULUM
+    -Prompr
