@@ -54,7 +54,8 @@
   margin:2vw;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom:4vw;
+  align-items:flex-start;
+  align-content: center;
 }
 
 .img-container {
@@ -67,6 +68,7 @@
   border-radius: 2vw 2vw 2vw 2vw;
   text-align: center;
   height: fit-content;
+  margin-bottom: 5vh;
 }
 
 .img-container p {
@@ -78,5 +80,5 @@
 }
 
 .img-container:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }

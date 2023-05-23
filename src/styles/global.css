@@ -169,6 +169,11 @@ main > p {
 main a {
     all:unset;
     cursor:pointer;
+    transition:1s;
+}
+
+main a:hover {
+    font-size: larger;
 }
 
 hr {
