@@ -7,18 +7,14 @@
     }
 }
 
-
-.homecard-left {
-    margin: 5%;
-    width:10vw;
-    display: block;
-    padding:none;
-    border-radius: 2vw 2vw 2vw 2vw;
-    box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
-    transform:rotate(-10deg) translateY(-5vh);
+@keyframes homecard-right-animation {
+    0% {
+        transform: scale(1,1) rotate(10deg) translateY(-5vh) translateX(65vw);
+    }
+    100% {
+        transform: rotate(0deg) scale(5,3) translateX(10vw) translateY(-5vh);
+    }
 }
-
-
 
 .card-tab {
     margin:none;
@@ -35,9 +31,19 @@
 
 }
 
+.homecard-left {
+    margin: 5%;
+    width:10vw;
+    display: block;
+    padding:none;
+    border-radius: 2vw 2vw 2vw 2vw;
+    box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
+    transform:rotate(-10deg) translateY(-5vh);
+}
+
 .homecard-left .card-frame {
     min-width: 10vw;
-    min-height: 30vh;
+    height: 25vh;
     background-color: var(--color_0);
     overflow: hidden;
     border-radius: 0vw 0vw 2vw 2vw;
@@ -54,8 +60,70 @@
     animation-fill-mode: both;
     transition: 4s ;
     border: none;
-    
 }
+
+.homecard-left .gallery-picture {
+    width:3vw;
+    height: 25vh;
+}
+
+.homecard-left .gallery-image-container {
+    width: 100%;
+    height: 25vh;
+    transform:translateX(-18%);
+}
+
+.homecard-left#pasiones {
+    width: 10vw;
+}
+
+.homecard#pasiones:hover {
+     
+}
+
+#pasiones .gallery {
+    width:100%;
+    height: 25vh;
+    border-radius: 0vw 0vw 2vw 2vw;
+    background: var(--color_6);
+}
+
+#homegallery {
+    width: 10vw;
+    height: 25vh;
+}
+
+.homecard-right {
+    margin: 5%;
+    width:10vw;
+    display: block;
+    padding:none;
+    border-radius: 2vw 2vw 2vw 2vw;
+    box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
+    transform:rotate(10deg) translateY(-5vh) translateX(65vw);
+}
+
+.homecard-right .card-frame {
+    min-width: 10vw;
+    height: 25vh;
+    background-color: var(--color_0);
+    overflow: hidden;
+    border-radius: 0vw 0vw 2vw 2vw;
+}
+
+.homecard-right:hover {
+    position: sticky;
+    top: 200px;
+    animation: homecard-right-animation 4s;  
+    /* display: flex;
+    flex-direction: row;
+    flex-flow: wrap; */
+    justify-content: space-between;
+    animation-fill-mode: both;
+    transition: 4s ;
+    border: none;
+}
+
 
 /* .homecard:hover .card-tab {
 
@@ -65,14 +133,7 @@
     
 } */
 
-.homecard-left#pasiones {
-    width: 10vw;
-}
 
-.homecard#pasiones:hover {
-    
-   
-}
 /*
 .homecard#dreamjob {
 
@@ -98,25 +159,5 @@
     
 } */
 
-#pasiones .gallery {
-    width:100%;
-    height: 30vh;
-    border-radius: 0vw 0vw 2vw 2vw;
-    background: var(--color_6);
-}
 
-#homegallery {
-    width: 10vw;
-    height: 20vh;
-}
 
-.homecard-left .gallery-picture {
-    width:3vw;
-    height: 30vh;
-}
-
-.homecard-left .gallery-image-container {
-    width: 100%;
-    height: 30vh;
-    transform:translateX(-18%);
-}
