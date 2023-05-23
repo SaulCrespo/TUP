@@ -150,4 +150,8 @@ area {
     cursor: pointer;
 }
 
+main > h2 {
+    text-align: center;
+}
+
 

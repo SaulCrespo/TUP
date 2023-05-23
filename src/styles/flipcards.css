@@ -17,6 +17,7 @@
     height: 26.5vw;
     perspective: 1000px;
     margin: 10px;
+    
   }
 
   .flip-card.dreamjob {
@@ -64,11 +65,22 @@
 
   .flip-card.dreamjob img {
     height: 80%;
+    border-radius: 0vw 0vw 2vw 2vw;
   }
   
   .flip-card p {
     font-size: 18px;
     padding: 20px;
+  }
+
+  #dreamjob .flip-card-front {
+    background-color: var(--color_7);
+    border-radius: 2vw;
+  }
+
+   #dreamjob .flip-card-back {
+    background-color: var(--color_7);
+    border-radius: 2vw;
   }
 
 /* ---------------------------------------------------------------------------------------- */
