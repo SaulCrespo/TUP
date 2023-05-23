@@ -26,7 +26,7 @@
         <main>
             <h2>CREACIÓN DE CONTENIDO MEDIANTE INTELIGENCIAS ARTIFICIALES</h2>
             <p>Dado que era un requisito, en esta página se ha hecho un amplio uso de IAs generativas que utilizan el LLM.
-                Las dos herramientas principales han sido Chat-GPT 3, para textos y generación de plantillas de código, y
+                Las dos herramientas principales han sido Chat-GPT 3 para textos y generación de plantillas de código, y
                 DALL-E (a través de la plataforma Bing Create) para las imágenes de la página.
             </p>
             <section class="imagenes-texto">
@@ -133,10 +133,6 @@
                     <p>David vs Goliath</p>
                 </div>
                 <div class="img-container">
-                    <img src="../img/jazz-music-2.jpg">
-                    <p>Violin, piano, sax and drums with a dark background surrounded by colorful particles</p>
-                </div>
-                <div class="img-container">
                     <img src="../img/jonas.jpeg">
                     <p>Jonah and the whale in the beach, with the ancient city of ninive in the background
                     </p>
@@ -225,6 +221,10 @@
                     <img src="../img/vertical-cross.jpg">
                     <p>Centered cross floating in the sky over a range of mountains at sunshine.</p>
                 </div>
+                <div class="img-container">
+                    <img src="../img/jazz-music-2.jpg">
+                    <p>Violin, piano, sax and drums with a dark background surrounded by colorful particles</p>
+                </div>
             </section>
             <hr>
             <h2 id="texto">TEXTO</h2>
@@ -244,7 +244,7 @@
                 </div>
                 <div class="img-container">
                     <p>
-                        ¿En qué consiste el ajedrez?                    </p>
+                        ¿En qué consiste el ajedrez?</p>
                     <hr>
                     <p>
                         ¿Qué es el ajedrez?
@@ -252,7 +252,7 @@
                 </div>
                 <div class="img-container">
                     <p>
-                        Cuéntame brevemente la historia del ajedrez                    </p>
+                        Cuéntame brevemente la historia del ajedrez</p>
                     <hr>
                     <p>
                         ¿Qué es el ajedrez?
@@ -319,7 +319,120 @@
                         6 razones por las cuales todo el mundo debería probar el jazz al menos una vez en su vida.
                     </p>
                 </div>
+            </section>
+            <hr>
+            <h2 id="codigo">CÓDIGO</h2>
+            <section class="ai-gallery">
+                <div class="img-container">
+                    <p>
+                        how to add tabulation to the first line of a &lt;p&gt; element
+                    </p>
+                    <hr>
+                    <pre>
+p {
+    text-indent: 1em;
+}
+    
+p::first-line {
+    text-indent: 0;
+}
+                        </pre>
+                </div>
                 
+            </div>
+            <div class="img-container">
+                <p>
+                    I need the html and css code for six flipcards that are grouped in an html section, with an img on the front side and a text on the back
+                </p>
+                <hr>
+<p>HTML</p>
+<pre>
+&lt;section class="flip-card-section"&gt;
+    &lt;div class="flip-card"&gt;
+        &lt;div class="flip-card-inner"&gt;
+            &lt;div class="flip-card-front"&gt;
+                &lt;img src="image1.jpg" alt="Image 1"&gt;
+            &lt;/div&gt;
+            &lt;div class="flip-card-back"&gt;
+                &lt;p&gt;Text 1&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+      
+    &lt;!-- Repeat the structure for the remaining flip cards --&gt;
+      
+    &lt;div class="flip-card"&gt;
+        &lt;div class="flip-card-inner"&gt;
+            &lt;div class="flip-card-front"&gt;
+                &lt;img src="image1.jpg" alt="Image 1"&gt;
+            &lt;/div&gt;
+            &lt;div class="flip-card-back"&gt;
+                &lt;p&gt;Text 1&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- Repeat the structure for the remaining flip cards --&gt;
+&lt;/section&gt;  
+      
+</pre>
+<p>CSS</p>
+<pre>
+.flip-card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .flip-card {
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+    margin: 10px;
+    }
+    
+    .flip-card-inner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    }
+    
+    .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    }
+    
+    .flip-card-front,
+    .flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    }
+    
+    .flip-card-front {
+    background-color: #f2f2f2;
+    }
+    
+    .flip-card-back {
+    background-color: #ddd;
+    transform: rotateY(180deg);
+    }
+    
+    .flip-card img {
+    max-width: 100%;
+    max-height: 100%;
+    }
+    
+    .flip-card p {
+    font-size: 18px;
+    padding: 20px;
+    }
+</pre>
+            </div>
+            
+        
+       
             </section>
         </main>
     </body>
