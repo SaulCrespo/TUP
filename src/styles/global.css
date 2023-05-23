@@ -126,21 +126,6 @@ article:hover ul {
     color: black;
 }
 
-#bienvenido span:hover::before {
-    color: rgb(145, 145, 145);
-}
-
-.playlist {
-    display: flex;
-    flex-direction: column;
-    margin: 20%;
-}
-
-audio {
-    border: 1px solid black;
-    fill: #f7ab47;
-}
-
 .cover-image {
     margin: 0vw 2vw 0vw 2vw;
     width: 94%;
@@ -166,13 +151,13 @@ main > p {
     justify-content: space-around;
 }
 
-main a {
+main .goto {
     all:unset;
     cursor:pointer;
     transition:1s;
 }
 
-main a:hover {
+main .goto:hover {
     font-size: larger;
 }
 
@@ -187,5 +172,7 @@ pre {
     color:white;
     text-align: left;
 }
+
+
 
 
