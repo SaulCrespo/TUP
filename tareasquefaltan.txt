@@ -1,3 +1,3 @@
  - Texto Bienvenidos.
  - Alineación y colocación de las homecards.
- - Diseño de prompts texto y código (IA).
+ - Diseño de prompts código (IA).

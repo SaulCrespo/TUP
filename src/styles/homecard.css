@@ -79,7 +79,7 @@
     padding:none;
     border-radius: 2vw 2vw 2vw 2vw;
     box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
-    transform:rotate(15deg) translateY(-5vh) translateX(65vw);
+    /* transform:rotate(15deg) translateY(-5vh) translateX(65vw); */
 }
 
 .homecard-right .card-frame {
@@ -109,22 +109,42 @@
 }
 
 #dreamjob {
-    transition: 4s;
-    transform: translateY(-20vh);
+    margin: 5%;
+    width:10vw;
+    display: block;
+    padding:none;
+    border-radius: 2vw 2vw 2vw 2vw;
+    box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
+    transform:rotate(15deg) translateY(-40vh) translateX(65vw);
 }
 
 #dreamjob:hover {
     transition: 4s;
-    transform: translateY(-20vh);
+    animation: dreamjob-animation 4s;
 }
 
 #pasiones:hover {
     animation: pasiones-animation 4s;  
 }
 
-#dreamjob {
-    animation: dreamjob-animation 4s;  
+#AI:hover {
+    animation: IA-animation 4s;
 }
+
+#referencias {
+    margin: 5%;
+    width:10vw;
+    display: block;
+    padding:none;
+    border-radius: 2vw 2vw 2vw 2vw;
+    box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
+    transform:rotate(15deg) translateY(-40vh) translateX(65vw);
+}
+
+#referencias:hover {
+    animation: referencias-animation 4s;
+}
+
 
 
 

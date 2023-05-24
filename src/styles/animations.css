@@ -23,7 +23,7 @@
 
 @keyframes dreamjob-animation {
   0% {
-      transform: scale(1.2,1.2) rotate(15deg) translateY(-20vh) translateX(65vw);
+      transform: scale(1.2,1.2) rotate(15deg) translateY(-34vh) translateX(54vw);
   }
   100% {
       transform: rotate(0deg) scale(5,4) translateX(10vw) translateY(-5vh);
@@ -32,16 +32,16 @@
 
 @keyframes IA-animation {
   0% {
-      transform: scale(1.2,1.2) rotate(15deg) translateY(-5vh) translateX(65vw);
+      transform: scale(1.2,1.2) rotate(-15deg) translateY(-5vh);;
   }
   100% {
-      transform: rotate(0deg) scale(5,4) translateX(10vw) translateY(-5vh);
+      transform: rotate(0deg) scale(5,4) translateX(5vw) translateY(-5vh);
   }
 }
 
 @keyframes referencias-animation {
   0% {
-      transform: scale(1.2,1.2) rotate(15deg) translateY(-5vh) translateX(65vw);
+      transform: scale(1.2,1.2) rotate(15deg) translateY(-32vh) translateX(54vw);
   }
   100% {
       transform: rotate(0deg) scale(5,4) translateX(10vw) translateY(-5vh);

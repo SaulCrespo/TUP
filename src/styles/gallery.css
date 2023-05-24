@@ -80,3 +80,25 @@
 .img-container:hover {
   transform: scale(1.1);
 }
+
+.txt-container {
+  display: inline-grid;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  width:30vw;
+  transition: transform 1s;
+  background-color: var(--color_0);
+  border-radius: 2vw 2vw 2vw 2vw;
+  text-align: center;
+  height: fit-content;
+  margin-bottom: 5vh;
+}
+
+.txt-container p {
+  width: 60ch;
+}
+
+.txt-container:hover {
+  transform: scale(1.1);
+}
