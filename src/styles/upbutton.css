@@ -1,0 +1,12 @@
+.up-button {
+    position: fixed;
+    z-index: 20;
+    bottom: 2vw;
+    right: 2vw;
+    transition: transform 1s;
+    /* left:30vw; */
+}
+
+.up-button:hover {
+    transform:scale(1.4);
+}

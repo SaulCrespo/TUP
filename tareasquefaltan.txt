@@ -1,0 +1,6 @@
+ - Texto Bienvenidos.
+ - Alineación y colocación de las homecards.
+ - Escribir Habilidades Blandas.
+ - Diseño de prompts texto y código (IA).
+ - Texto de la flipcard de dreamjob que es demasiado grande.
+ - Título y links de las páginas de pasiones.
