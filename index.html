@@ -1,73 +1,31 @@
 <!DOCTYPE html>
-<html lang="es-ES" title="Home">
+<html lang="es-ES">
     <head>
-        <meta charset="UTF-8">
-        <title>Saúl Crespo</title>
-        <link rel="stylesheet" href="src/styles/global.css">
-        <link rel="stylesheet" href="src/styles/animations.css">
-        <link rel="icon" href="../img/favicon.png">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <head>
+            <meta charset="UTF-8">
+            <title>Saúl Crespo</title>
+            <link rel="stylesheet" href="src/styles/global.css">
+            <link rel="stylesheet" href="src/styles/header.css">
+            <link rel="stylesheet" href="src/styles/animations.css">
+            <link rel="stylesheet" href="src/styles/tab-frame.css">
+            <link rel="stylesheet" href="src/styles/homecard.css">
+            <link rel="stylesheet" href="src/styles/gallery.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Mono" rel="stylesheet">
+            <link rel="icon" href="src/img/favicon.png">
+        </head>
     </head>
     <body id="index">
-        <h2 id="intro">La Misteriosa página de Saul Crespo</h2>
-        <div class="svg-container">
-            <svg id="rueda-index" viewBox="0 0 1000 1000">
-                <circle cx="500" cy="500" r="400" stroke="green" stroke-width="40" fill="darkblue" />
-                <rect x="240" y="240"  width="520" height="520"
-                    style=
-                        "fill:rgb(120,40,200);
-                        stroke-width:1;
-                        stroke:rgb(255,0,0)">
-                    <animateTransform attributeName="transform" attributeType="XML" type="rotate"
-                    from="22 500 500" to="112 500 500"
-                    begin="1s" dur="3s" fill="freeze"
-                    repeatCount="indefinite"/>
-                
-                </rect>
-                <rect x="240" y="240"  width="520" height="520"
-                    style=
-                        "fill:rgb(0,0,0);
-                        stroke-width:1;
-                        stroke:rgb(255,0,0)">
-                    <animateTransform attributeName="transform" attributeType="XML" type="rotate"
-                    from="0 500 500" to="-90 500 500"
-                    begin="1s" dur="3s" fill="freeze"
-                    repeatCount="indefinite"/>
-                
-                </rect>
-                <rect x="240" y="240"  width="520" height="520"
-                    style=
-                        "fill:rgba(0,0,0,0);
-                        stroke-width:10;
-                        stroke:rgb(255,0,0)">
-                    <animateTransform attributeName="transform" attributeType="XML" type="rotate"
-                    from="22 500 500" to="112 500 500"
-                    begin="1s" dur="3s" fill="freeze"
-                    repeatCount="indefinite"/>
-                
-                </rect>
-                <line id="line1" x1="80" y1="500" x2="920" y2="500" style="stroke:rgb(255,0,0);stroke-width:2">
-                    <animateTransform attributeName="transform" attributeType="XML" type="rotate"
-                    from="0 500 500" to="90 500 500"
-                    begin="1s" dur="3s" fill="freeze"
-                    repeatCount="indefinite"/> 
-                </line> 
-                <line id="line2" x1="500" y1="80" x2="500" y2="920" style="stroke:rgb(255,0,0);stroke-width:2">    
-                    <animateTransform attributeName="transform" attributeType="XML" type="rotate"
-                    from="0 500 500" to="90 500 500"
-                    begin="1s" dur="3s" fill="freeze"
-                    repeatCount="indefinite"/>
-                </line>
-                <a href="src/pages/home.html">
-                    <rect x="240" y="360"  width="520" height="300"
-                        style=
-                            "fill:rgb(0,0,0);
-                            stroke-width:10;
-                            stroke:rgb(255,0,0)">
-                    </rect>
-                    <text x="370" y="540" fill="white" font-size="100">Entrar</text>
-                </a>
-            </svg>
+        <img class="background" src="src/img/cruz-fondo2.jpg">
+       
+
+        <a class="TUP" href="src/pages/home.html"><div id="TUP">
+            <h2>
+                THE ULTIMATE PROJECT
+            </h2>
+            <h2>Por Saúl Crespo Saldaña</h2>
+            <h2>ENTRAR</h2>
         </div>
+       </a>
     </body>
 </html>
