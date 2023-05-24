@@ -82,3 +82,8 @@
     background-color: var(--color_7);
     border-radius: 2vw;
   }
+
+  #departamento .flip-card-back * {
+    padding:2%;
+    font-size: 98%;
+  }
