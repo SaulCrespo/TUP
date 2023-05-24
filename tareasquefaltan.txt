@@ -1,4 +1,3 @@
  - Texto Bienvenidos.
  - Alineación y colocación de las homecards.
- - Escribir Habilidades Blandas.
  - Diseño de prompts texto y código (IA).

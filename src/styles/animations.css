@@ -12,6 +12,42 @@
     }
 }
 
+@keyframes pasiones-animation {
+  0% {
+      transform: scale(1.2,1.2) translateX(0vw) translateY(-5vh) rotate(-15deg);
+  }
+  100% {
+      transform: rotate(0deg) scale(5,4) translateX(5vw) translateY(-5vh);
+  }
+}
+
+@keyframes dreamjob-animation {
+  0% {
+      transform: scale(1.2,1.2) rotate(15deg) translateY(-20vh) translateX(65vw);
+  }
+  100% {
+      transform: rotate(0deg) scale(5,4) translateX(10vw) translateY(-5vh);
+  }
+}
+
+@keyframes IA-animation {
+  0% {
+      transform: scale(1.2,1.2) rotate(15deg) translateY(-5vh) translateX(65vw);
+  }
+  100% {
+      transform: rotate(0deg) scale(5,4) translateX(10vw) translateY(-5vh);
+  }
+}
+
+@keyframes referencias-animation {
+  0% {
+      transform: scale(1.2,1.2) rotate(15deg) translateY(-5vh) translateX(65vw);
+  }
+  100% {
+      transform: rotate(0deg) scale(5,4) translateX(10vw) translateY(-5vh);
+  }
+}
+
 svg {
     width: 500px;
     height: 500px;
@@ -28,9 +64,7 @@ svg {
     align-items:center;
     text-align: center;
 }
-
-
-  
+ 
 .svg-container {
 width: 500px;
 height: 500px;

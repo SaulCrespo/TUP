@@ -1,20 +1,3 @@
-@keyframes homecard-left-animation {
-    0% {
-        transform: scale(1,1) translateX(0vw) translateY(-5vh) rotate(-10deg);
-    }
-    100% {
-        transform: rotate(0deg) scale(5,4) translateX(5vw) translateY(-5vh);
-    }
-}
-
-@keyframes homecard-right-animation {
-    0% {
-        transform: scale(1,1) rotate(10deg) translateY(-5vh) translateX(65vw);
-    }
-    100% {
-        transform: rotate(0deg) scale(5,4) translateX(10vw) translateY(-5vh);
-    }
-}
 
 .card-tab {
     margin:none;
@@ -38,7 +21,7 @@
     padding:none;
     border-radius: 2vw 2vw 2vw 2vw;
     box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
-    transform:rotate(-10deg) translateY(-5vh);
+    transform:rotate(-15deg) translateY(-5vh);
 }
 
 .homecard-left .card-frame {
@@ -52,7 +35,6 @@
 .homecard-left:hover {
     position: sticky;
     top: 200px;
-    animation: homecard-left-animation 4s;  
     /* display: flex;
     flex-direction: row;
     flex-flow: wrap; */
@@ -77,9 +59,6 @@
     width: 10vw;
 }
 
-.homecard#pasiones:hover {
-     
-}
 
 #pasiones .gallery {
     width:100%;
@@ -100,7 +79,7 @@
     padding:none;
     border-radius: 2vw 2vw 2vw 2vw;
     box-shadow: 5px 5px 5px rgba(14, 0, 45, 0.658);
-    transform:rotate(10deg) translateY(-5vh) translateX(65vw);
+    transform:rotate(15deg) translateY(-5vh) translateX(65vw);
 }
 
 .homecard-right .card-frame {
@@ -129,39 +108,23 @@
     height:15vw;
 }
 
-/* .homecard:hover .card-tab {
-
+#dreamjob {
+    transition: 4s;
+    transform: translateY(-20vh);
 }
 
-.homecard:hover .card-frame {
-    
-} */
-
-
-/*
-.homecard#dreamjob {
-
+#dreamjob:hover {
+    transition: 4s;
+    transform: translateY(-20vh);
 }
 
-.homecard#dreamjob:hover {
-    
+#pasiones:hover {
+    animation: pasiones-animation 4s;  
 }
 
-.homecard#AI {
-
+#dreamjob {
+    animation: dreamjob-animation 4s;  
 }
-
-.homecard#AI:hover {
-    
-}
-
-.homecard#referencias {
-
-}
-
-.homecard#referencias:hover {
-    
-} */
 
 
 
