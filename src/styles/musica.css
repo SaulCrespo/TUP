@@ -55,11 +55,14 @@
 .textoJazz  li {
     text-align: justify;
     margin: 10px;
+    max-width: 66ch;
+    font-size:1.5vw;
 }
 
 .jazz {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: large;
+    max-width: 90vw;
 }
 
