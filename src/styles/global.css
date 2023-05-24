@@ -119,11 +119,12 @@ article:hover ul {
     top: 20vh;
     left: 25vw;
     cursor:default;
+    text-shadow: 2px 2px 2px #444c5385;
 }
 
 #bienvenido span:hover {
     transition: 0.5s;
-    color: black;
+    color: var(--color_3);
 }
 
 .cover-image {
