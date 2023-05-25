@@ -51,9 +51,7 @@ body {
     color: var(--color_3);
     overflow-x: hidden;
 }
-aside {
-    background-color:aqua;
-}
+
 
 p {
     line-height: 1.5;
