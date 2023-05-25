@@ -55,15 +55,6 @@ aside {
     background-color:aqua;
 }
 
-/* Esto es para la página de index, pero es temporal */
-#index {
-    background-image: url("../img/cross-mountains.png");
-    background-repeat: no-repeat;
-    background-position: 0;
-    background-size: 100vw;
-    background-attachment: fixed;
-}
-
 p {
     line-height: 1.5;
 }

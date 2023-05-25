@@ -78,7 +78,7 @@
 
   100% {
     opacity: 1;
-    transform: scale(2) translateY(30vh);
+    transform: scale(2) translateY(20vh);
     background-color: #071a38d8;
   }
 }
@@ -100,7 +100,7 @@
 }
 
 #index .background {
-  top:5vh;
+  top: -20vh;
   width:102vw;
 }
 
@@ -121,6 +121,6 @@
 
 .TUP:hover {
   
-  transform: scale(1.1) translateY(-4vh);
+  transform: scale(1.1) translateY(-5vh);
 }
  
