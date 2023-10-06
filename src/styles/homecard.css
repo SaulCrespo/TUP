@@ -40,7 +40,7 @@
     flex-flow: wrap; */
     justify-content: space-between;
     animation-fill-mode: both;
-    transition: 4s ;
+    transition: 4s tra;
     border: none;
 }
 
@@ -93,13 +93,13 @@
 .homecard-right:hover {
     position: sticky;
     top: 200px;
-    animation: homecard-right-animation 4s;  
+    animation: homecard-right-animation 4s forwards;  
     /* display: flex;
     flex-direction: row;
     flex-flow: wrap; */
     justify-content: space-between;
     animation-fill-mode: both;
-    transition: 4s ;
+    transition: 4s forwards;
     border: none;
 }
 
@@ -120,15 +120,15 @@
 
 #dreamjob:hover {
     transition: 4s;
-    animation: dreamjob-animation 4s;
+    animation: dreamjob-animation 4s forwards;
 }
 
 #pasiones:hover {
-    animation: pasiones-animation 4s;  
+    animation: pasiones-animation 4s forwards;  
 }
 
 #AI:hover {
-    animation: IA-animation 4s;
+    animation: IA-animation 4s forwards;
 }
 
 #referencias {
